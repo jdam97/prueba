@@ -12,7 +12,7 @@ El programa cuenta con una base de datos que contiene la información de cada un
 //1. Creo la base de datos llamada campuslands.
 CREATE DATABASE campuslands;
 
-// 2. Doy el comando para empezar a usar la base que cree anteriormente.
+// 2. DOy el comando para empezar a usar la base que cree anteriormente.
 USE campuslands;
 
 
@@ -51,6 +51,13 @@ campuslands tabla campers:
 CREATE TABLE campers (idCamper INT AUTO_INCREMENT PRIMARY KEY, nombreCamper VARCHAR(50), apellidoCamper VARCHAR(50),fechaNac DATE, idReg INT, FOREIGN KEY (idReg) REFERENCES region(idReg));
 
 ```
+## Imagenes de la base de datos
+
+![database](/home/apolt01-007/Pictures/Screenshots/database.png)
+
+
+
+
 
 ## Errores encontrados
 
@@ -58,5 +65,8 @@ Habian dos errores en el modelo de las tablas del documento.
 
 1. En la primera tabla solicitaban para nombrePais un tipo de dato entero(int) y debe ser de tipo string(VARCHAR).
 
+   ![error1](/home/apolt01-007/Pictures/Screenshots/error1.png)
+
 2. En la tabla campers solicitaban para idCamper un valor de tipo string(VARCHAR) y este debe ser de tipo entero(INT).
 
+   ![error2](/home/apolt01-007/Pictures/Screenshots/error2.png)
