@@ -13,6 +13,7 @@ El programa cuenta con una base de datos que contiene la información de cada un
 CREATE DATABASE campuslands;
 
 // 2. DOy el comando para empezar a usar la base que cree anteriormente.
+
 USE campuslands;
 
 
