@@ -54,7 +54,7 @@ CREATE TABLE campers (idCamper INT AUTO_INCREMENT PRIMARY KEY, nombreCamper VARC
 ```
 ## Imagenes de la base de datos
 
-![database](/home/apolt01-007/Pictures/Screenshots/database.png)
+![database](/img/database.png)
 
 
 
@@ -66,8 +66,8 @@ Habian dos errores en el modelo de las tablas del documento.
 
 1. En la primera tabla solicitaban para nombrePais un tipo de dato entero(int) y debe ser de tipo string(VARCHAR).
 
-   ![error1](/home/apolt01-007/Pictures/Screenshots/error1.png)
+   ![error1](/img/error1.png)
 
 2. En la tabla campers solicitaban para idCamper un valor de tipo string(VARCHAR) y este debe ser de tipo entero(INT).
 
-   ![error2](/home/apolt01-007/Pictures/Screenshots/error2.png)
+   ![error2](/img/error2.png)
